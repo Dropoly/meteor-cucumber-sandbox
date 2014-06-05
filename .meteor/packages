@@ -6,5 +6,5 @@
 standard-app-packages
 coffeescript
 velocity
-mirror
+selenium
 cucumber

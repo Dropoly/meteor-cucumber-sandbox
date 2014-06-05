@@ -1,6 +1,7 @@
 {
   "packages": {
-    "cucumber": {},
-    "velocity": {}
+    "velocity": {},
+    "selenium": {},
+    "cucumber": {}
   }
 }

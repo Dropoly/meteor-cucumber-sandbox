@@ -2,19 +2,25 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "cucumber": {},
-      "velocity": {}
+      "velocity": {},
+      "selenium": {},
+      "cucumber": {}
     },
     "packages": {
-      "cucumber": {
-        "git": "https://github.com/xdissent/meteor-cucumber.git",
-        "tag": "v0.0.2",
-        "commit": "ce27a9efc42ad9c89d9434f6060b7515a2dbcb65"
-      },
       "velocity": {
         "git": "https://github.com/xolvio/velocity.git",
         "tag": "v0.1.7",
         "commit": "7e6ea897d78eb298e145f2ee7c588854cfa1e171"
+      },
+      "selenium": {
+        "git": "https://github.com/xdissent/meteor-selenium.git",
+        "tag": "v0.0.1",
+        "commit": "7cb139816c0779a9518e55aa6b87686c6e01f3e8"
+      },
+      "cucumber": {
+        "git": "https://github.com/xdissent/meteor-cucumber.git",
+        "tag": "v0.0.2",
+        "commit": "ce27a9efc42ad9c89d9434f6060b7515a2dbcb65"
       },
       "mirror": {
         "git": "https://github.com/xdissent/meteor-mirror.git",
