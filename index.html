@@ -1,0 +1,14 @@
+<head>
+  <title> meteor-cucumber sandbox </title>
+</head>
+
+<body>
+  {{> data}}
+</body>
+
+<template name='data'>
+  <h3> data: </h3>
+  {{#each theData}}
+    <h5> a: {{a}} b: {{b}} c: {{c}} </h5>
+  {{/each}}
+</template>
